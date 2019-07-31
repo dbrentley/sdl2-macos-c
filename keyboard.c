@@ -17,6 +17,7 @@ void waitKeyboardEvents(void) {
     while (!quit) {
         while (SDL_PollEvent(&e)) {
             switch (e.type) {
+                case SDL_WINDOWEVENT_CLOSE:
                 case SDL_QUIT:
                     quit = true;
                     break;
