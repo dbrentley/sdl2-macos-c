@@ -1,7 +1,7 @@
 CC = gcc
 OUT = out
 BIN = sdl
-all: main.c
+all:
 	mkdir -p $(OUT)
 	$(CC) -Wall -Werror \
 		main.c \
