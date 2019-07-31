@@ -52,6 +52,7 @@ int main(int argc, char * argv[]) {
     // done drawing, "present" the screen we've drawn
     SDL_RenderPresent(renderer);
     
+    // keyboard.c
     waitKeyboardEvents();
     return 0;
 }

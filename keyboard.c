@@ -21,6 +21,7 @@ void waitKeyboardEvents(void) {
             }
         }
     }
+    // cleanup.c
     teardown();
 }
 
